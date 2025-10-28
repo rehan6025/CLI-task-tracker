@@ -12,7 +12,7 @@ import {
 } from "./utils/taskActions.js";
 
 program
-    .name("task-cli")
+    .name("task ")
     .version("1.0.0")
     .description("task tracker CLI")
     .action(() => {

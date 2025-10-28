@@ -57,7 +57,7 @@ function listAllTasks() {
 function updateTask(id, newDesc) {
     const tasks = loadTasks();
     const index = tasks.findIndex((t) => t.id === id);
-    if (!index) return chalk.red("No such task exits with given id");
+    if (index === -1) return chalk.red("No such task exits with given id");
     const task = tasks[index];
     tasks.splice(index, 1, {
         id: task.id,
