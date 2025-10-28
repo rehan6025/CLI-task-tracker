@@ -6,7 +6,7 @@ Task tracker CLI made as a sample project from https://roadmap.sh/projects/task-
 
 ```
 npm install
-task-cli <any command you wanna use , to see supported , use taskcli --help>
+task-cli <any command you wanna use , to see supported , use task-cli --help>
 ```
 
 ## Supported Actions
